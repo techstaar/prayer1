@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #17a2b8;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card-image-container {
+  background: url('assets/mothermary1.jpeg') 100% no-repeat;
+  background-size: cover;
+}
