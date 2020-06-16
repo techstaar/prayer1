@@ -1,13 +1,15 @@
-<h2>{{prayer.prayerName}}</h2>
-
-<hr/>
-<div *ngIf="prayer">
-  <div >
-    {{prayer.paragraph1}}
+<div class="container-fluid">
+  <br>
+  <div class="card">
+    <div class="card-header">
+      <b>{{prayer.prayerName}}</b>
+    </div>
+    <div class="card-body">
+      <p class="card-text" [innerHTML]="prayer.paragraph1"></p>
+      <button (click)="list()" class="btn btn-info">Back to Prayer List</button>
+    </div>
   </div>
+
 </div>
 
-<br>
-<br>
-<button (click)="list()" class="btn btn-info">Back to Prayer List</button><br>
 

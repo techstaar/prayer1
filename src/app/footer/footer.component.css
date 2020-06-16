@@ -1,0 +1,37 @@
+.footer2 {
+  color: #fff;
+  /*padding: 30px 20px;*/
+  bottom: 0;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  background-color: #17a2b8;
+  border: 1px solid red;
+}
+
+
+
+.footer2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5%;
+  background-color: #17a2b8;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 10px;
+  margin:auto;
+}
+
+.footer {
+  color: #fff;
+  bottom: 0;
+  justify-content: center;
+  align-content: center;
+  background-color: #17a2b8;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  padding: 10px 10px;
+}

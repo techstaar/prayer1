@@ -7,6 +7,9 @@ import { PrayerDetailsComponent } from './prayer-details/prayer-details.componen
 import { PrayerListComponent } from './prayer-list/prayer-list.component';
 import { PrayerHomeComponent } from './prayer-home/prayer-home.component';
 import { PrayerWordofgodComponent } from './prayer-wordofgod/prayer-wordofgod.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { PrayerWordofgodComponent } from './prayer-wordofgod/prayer-wordofgod.co
     PrayerDetailsComponent,
     PrayerListComponent,
     PrayerHomeComponent,
-    PrayerWordofgodComponent
+    PrayerWordofgodComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

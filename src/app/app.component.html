@@ -1,34 +1,7 @@
-<nav class="navbar navbar-expand-sm bg-info navbar-dark">
-
-  <a class="navbar-brand" href="#">The Catholic Faith</a>
-
-  <!-- Links -->
-  <ul class="navbar-nav">
-
-    <li class="nav-item">
-      <a routerLink="home" class="nav-link" routerLinkActive="active">Home</a>
-    </li>
-
-    <li class="nav-item">
-        <a routerLink="prayers" class="nav-link" routerLinkActive="active">Prayers</a>
-    </li>
-
-    <li class="nav-item">
-      <a routerLink="wordofgod" class="nav-link" routerLinkActive="active">WordOfGod</a>
-  </li>
-
-  </ul>
-</nav>
-<div class="container-fluid">
-
+<div class="layout-wrapper">
+  <app-navbar></app-navbar>
   <router-outlet></router-outlet>
-
 </div>
+<app-footer></app-footer>
 
-<footer class="footer">
-  <div class="container">
-    <p class="font-weight-lighter">
-      <small>Pray For Us, O Holy Mother of God, That We May Be Made Worthy of the Promises of Christ.</small>
-    </p>
-  </div>
-</footer>
+

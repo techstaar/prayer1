@@ -1,17 +1,19 @@
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h2>Prayer List</h2>
-  </div>
-  <div class="panel-body">
-    <table class="table table-hover">
-      <tbody>
-        <tr *ngFor="let prayer of prayers">
-          <td>{{prayer.prayerName}}</td>
-          <td>
-              <button (click)="prayerDetails(prayer.id)" class="btn btn-info" style="margin-left: 10px">View</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+<div class="container-fluid">
+  <div class="panel panel-primary">
+    <br>
+    <div class="panel-heading">
+    </div>
+    <div class="panel-body">
+      <table class="table table-hover">
+        <tbody>
+          <tr *ngFor="let prayer of prayers">
+            <td>{{prayer.prayerName}}</td>
+            <td>
+                <button (click)="prayerDetails(prayer.id)" class="btn btn-info" style="margin-left: 10px">View</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>

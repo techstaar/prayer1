@@ -1,3 +1,5 @@
+import { WordofgodService } from './../wordofgod.service';
+import { WordOfGod } from './../wordofgod';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrayerHomeComponent implements OnInit {
 
-  constructor() { }
+  wordofgod: WordOfGod;
+
+  constructor(private wordofGodService: WordofgodService) { }
 
   ngOnInit(): void {
+    this.wordofgod =  this.wordofGodService.getWordOfGod();
   }
 
 }
