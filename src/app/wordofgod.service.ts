@@ -10,17 +10,20 @@ export class WordofgodService {
   private WORDOFGOD_LIST: WordOfGod[] = [
     {
       id: 0,
-      wordofgod: `Call to me and I will answer you, and will tell you great and hidden things that you have not known.`,
+      wordofgod: `Call to me and I will answer you, and will tell you
+      great and hidden things that you have not known.`,
       reference: 'Jeremiah 33 : 3',
     },
     {
         id: 1,
-        wordofgod: `Call to me and I will answer you, and will tell you great and hidden things that you have not known.`,
+        wordofgod: `Call to me and I will answer you, and will tell
+        you great and hidden things that you have not known.`,
         reference: 'Jeremiah 33 : 3',
     },
     {
       id: 2,
-      wordofgod: `May the God of hope fill you with all joy and peace in believing, so that you may abound in hope by the power of the Holy Spirit`,
+      wordofgod: `May the God of hope fill you with all joy and peace in believing,
+      so that you may abound in hope by the power of the Holy Spirit`,
       reference: 'Romans 15 : 13',
     },
     {
@@ -38,17 +41,20 @@ export class WordofgodService {
     },
     {
       id: 5,
-      wordofgod: `Humble yourselves therefore under the mighty hand of God, so that he may exalt you in due time.`,
+      wordofgod: `Humble yourselves therefore under the mighty hand of God,
+      so that he may exalt you in due time.`,
       reference: '1 Peter 5 : 6',
     },
     {
       id: 6,
-      wordofgod: `So I tell you, whatever you ask for in prayer, believe that you have received[a] it, and it will be yours.`,
+      wordofgod: `So I tell you, whatever you ask for in prayer, believe that you have received it,
+      and it will be yours.`,
       reference: 'Mark 11 : 24',
     },
     {
       id: 7,
-      wordofgod: `Be strong and courageous; do not be frightened or dismayed, for the Lord your God is with you wherever you go.`,
+      wordofgod: `Be strong and courageous; do not be frightened or dismayed,
+      for the Lord your God is with you wherever you go.`,
       reference: 'Joshua 1 : 9',
     },
     {
