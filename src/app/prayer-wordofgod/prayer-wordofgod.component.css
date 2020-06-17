@@ -1,3 +1,23 @@
 .img-container {
   text-align: center;
 }
+
+.card-body {
+  padding: 5px;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #17a2b8;
+  text-decoration: none;
+}
+
+
+.container-bible {
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px 10px;
+  text-align: center;
+}
